@@ -1,0 +1,13 @@
+- employer: Bronto Software
+  title: Senior Software Engineer
+  location: Durham, NC
+  start_date: July 2012
+  end_date: Present
+  description: "At Bronto, I helped kickstart the implementation of SOA, decomposing two monolithic applications into microservices. As part of this effort, I lead the development teams that released the first five Java microservices at Bronto. Three of these microservices comprised the infrastructure necessary to support a new feature for the Bronto Marketing Platform, Cart Recovery. These microservices are responsible for tracking shoppers across a commerce site and enabling marketing automation for shopping events, such as abandoned carts and new orders. Due to the scale of incoming and outgoing data, distributed computing plays an integral part of each service. My role included cross-team business and product level requirement gathering, translation of requirements into technical concepts, and leading the team of developers who produced the microservices necessary to meet the product requirements."
+
+- employer: IBM
+  title: Staff Software Engineer
+  location: Retail Store Solutions, RTP, NC
+  start_date: Oct. 2000
+  end_date: July 2012
+  description: "As an IBM employee, my consistent commitment to excellence in creating simple and elegant solutions to challenging problems earned the respect and recognition of my co-workers. I did not simply settle for techniques or technologies that I knew well, but insisted on finding the best tools available to solve a problem. I was a technical lead on a 30+ developer multi-site team, developing a cross-channel enterprise solution. I continuously contributed to the IBM patent portfolio and sat was an active member of the Patent Review Board for the Retail Store Solutions division."

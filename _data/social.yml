@@ -1,0 +1,11 @@
+- name: twitter
+  icon: twitter
+  link: http://twitter.com/jarradag
+
+- name: github
+  icon: github
+  link: https://github.com/jarrad
+
+- name: stackoverflow
+  icon: stack-overflow
+  link: http://stackoverflow.com/users/1159339/jarrad

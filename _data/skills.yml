@@ -1,0 +1,54 @@
+- name: Java
+  icon: coffee
+  categories:
+    - name: Frameworks
+      tags:
+        - Spring
+        - Jersey
+        - Jackson
+        - Codahale
+    - name: Distributed
+      tags:
+        - MapReduce
+        - Hadoop
+        - HBase
+    - name: Lifecycle
+      tags:
+        - Bamboo
+        - Jenkins
+        - Artifactory
+        - Nexus
+    - name: Development
+      tags:
+        - Maven
+        - Eclipse
+        - JUnit
+        - Mockito
+
+- name: Other
+  icon: code
+  categories:
+    - name: Languages
+      tags:
+        - Ruby
+        - Python
+        - javascript
+        - HTML
+        - CSS
+    - name: Data
+      tags:
+        - Postgres
+        - MySQL
+        - Redis
+        - HBase
+    - name: DevOps
+      tags:
+        - Chef
+        - Linux
+    - name: Tools
+      tags:
+        - Git
+        - JIRA
+        - Crucible
+        - Scrum
+        - Kanban

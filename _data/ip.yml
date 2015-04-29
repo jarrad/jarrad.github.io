@@ -1,0 +1,36 @@
+- title: System for input and output of data with non-standard i/o devices for web applications
+  type: United States Patent
+  id: US20080270535 A1
+  date_issued: June 30, 2003
+  description: A system for input and output of data with non-standard I/O devices for web and other applications. In one aspect, non-standard input data is received from the non-standard input device at a client, and the non-standard input data is provided as equivalent standard input data to the standard browser running on the client, so that the standard browser can submit the input data to an application...
+  link: http://appft1.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PG01&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&s1=20080270535.PGNR.
+
+- title: Mobile device peer volume polling
+  type: United States Patent
+  id: US8077628 B2
+  date_issued: February 12, 2008
+  description: Performing local peer volume polling by a mobile device is provided. In response to determining that a polling function is enabled in a mobile device, a request is transmitted to each of the peer mobile devices using the polling function. The polling function requests audible operation level setting data from peer mobile devices within a predetermined distance of the mobile device. A map is...
+  link: http://patft.uspto.gov/netacgi/nph-Parser?Sect2=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/search-bool.html&r=1&f=G&l=50&d=PALL&RefSrch=yes&Query=PN/8077628
+
+- title: Optimization of purchase benefits by use of multiple financial accounts
+  type: United States Patent
+  id: US20120290366 A1
+  date_issued: May 10, 2011
+  description: Systems and methods for optimization of purchase benefits by use of multiple financial accounts are disclosed. According to an aspect, a method includes determining a category among multiple categories for each purchase item of multiple purchase items. The method may include determining reward program benefits associated with financial accounts. Further, the method may include associating each...
+  link: http://appft1.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PG01&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&s1=20120290366.PGNR.
+
+- title: Behaviour Encouragement Credit Card
+  type: Publication
+  id: IBM
+  date_issued: October 30, 2008
+  description: This article outlines the idea of a credit card that encourages certain behaviors from the individuals using the card by charging a predefined "fee" for all purchases that are against the goals set by the card holder that is stored in an escrow account owned by the card holder. The goal is to encourage desired behavioral habits and avoid negative behavioral habits.
+  link: http://ip.com/IPCOM/000176142
+
+
+
+- title: Wireless Receipe and Food Inventory
+  type: Publication
+  id: IBM
+  date_issued: October 4, 2007
+  description: "Using a handheld scanner and product barcodes, this publication describes how nutrition and other valuable information can be automatically obtained for the user - for personal or professional use. This can also help track inventory on a small scale, like a home, or a larger scale, like a restaurant. Further use of this system would involve collaboration with retailers to help On Demand..."
+  link: http://ip.com/IPCOM/000158894

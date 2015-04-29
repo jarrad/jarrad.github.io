@@ -1,0 +1,25 @@
+@media print {
+	.experience {
+		page-break-before: always;
+	}
+
+	.education2 {
+		page-break-before: always;
+	}
+
+
+	div.skills ul {
+		list-style:square;
+		font-size:1.2em;
+		font-family:'Droid Sans';
+	}
+
+
+	div.resume h4 {
+		font-family:'Droid Sans';
+		text-transform:uppercase;
+		font-size:1.2em;
+		letter-spacing:1px;
+	}
+
+}

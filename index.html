@@ -1,1 +1,95 @@
-<h1>jarrad giles</h1>
+---
+
+layout: bootstrap
+
+---
+
+
+<div class="container resume section">
+
+  <div class="row">
+    <div class="col-xs-12 resume-intro">
+      <h1>{{ site.data.contact.name }} <small>{{ site.data.contact.email }}</small> <small>{{ site.data.contact.phone }}</small></h1>
+      <p class="lead main">I am a Software Engineer living in Raleigh, NC. I like to solve problems.</p>
+      <p class="lead">I've invested the last 15 years of my career architecting solutions for the retail industry. Software is my passion and I devote much of my personal time to expanding my knowledge and learning new technologies. Java is my sweet spot. Most of my experience involves developing high scale, high performance, and distributed Java applications.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    {% for skill in site.data.skills %}
+    <div class="col-xs-12 java">
+      <h4>{{ skill.name }} <i class="fa fa-fw fa-{{ skill.icon }}"></i></h4>
+      <div class="row">
+        {% for category in skill.categories %}
+        <div class="col-xs-3 col-sm-3 col-md-3 col skills">
+          <h4>{{ category.name }}</h4>
+          <ul>
+            {% for tag in category.tags %}
+            <li>{{ tag }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endfor %}
+      </div>
+      <hr>
+    </div>    
+    {% endfor %}
+  </div>
+
+  <div class="row experience block">
+    <div class="col-xs-12 experience">
+      <h4>Experience <i class="fa fa-fw fa-history"></i></h4>
+      <div class="row">
+        {% for e in site.data.experience %}
+        <div class="col-xs-12 job">
+          <h3>{{ e.employer }}</h3>
+          <h5>{{ e.title }}, {{ e.location }} [{{ e.start_date }} - {{ e.end_date }}]</h5>
+          <p class="lead">{{ e.description }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="row ip block">
+    <div class="col-xs-12 ip">
+      <h4>IP <i class="fa fa-fw fa-lightbulb-o"></i></h4>
+      <div class="row">
+        {% for e in site.data.ip %}
+        <div class="col-xs-12 job">
+          <h3><a href="{{ e.link }}" target="_ip">{{ e.title }}</a></h3>
+          <h5>{{ e.date_issued }}</h5>
+          <h5>{{ e.type }} [{{ e.id }}</h5>
+          <p class="lead">{{ e.description }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="row education block">
+    <div class="col-xs-12 education">
+      <h4>Education <i class="fa fa-fw fa-graduation-cap"></i></h4>
+      <div class="row">
+        {% for e in site.data.education %}
+        <div class="col-xs-12 job">
+          <h3>{{e.name}}</h3>
+          <h5>{{ e.degrees | join ',' }} [{{e.start_date}} - {{e.end_date}}]</h5>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+  {% for s in site.data.social %}
+    <a href="{{ s.link }}" target="_{{ s.name }}" title="{{ s.name }}"><i class="fa fa-{{ s.icon }}"></i></a>
+  {% endfor %}
+  </div>
+
+</div>
+
+
+
+
+
