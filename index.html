@@ -74,7 +74,7 @@ layout: bootstrap
         {% for e in site.data.education %}
         <div class="col-xs-12 job">
           <h3>{{e.name}}</h3>
-          <h5>{{ e.degrees | join ',' }} [{{e.start_date}} - {{e.end_date}}]</h5>
+          <h5>{{ e.degrees | join: ', ' }} [{{e.start_date}} - {{e.end_date}}]</h5>
         </div>
         {% endfor %}
       </div>
