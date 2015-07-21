@@ -31,7 +31,6 @@
     - name: Languages
       tags:
         - Ruby
-        - Python
         - javascript
         - HTML
         - CSS
@@ -49,6 +48,6 @@
       tags:
         - Git
         - JIRA
-        - Crucible
+        - GitHub
         - Scrum
         - Kanban
