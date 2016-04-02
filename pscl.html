@@ -1,0 +1,32 @@
+---
+
+layout: bootstrap
+
+---
+
+
+<div class="container resume section">
+
+  <div class="row">
+    <div class="col-xs-12 resume-intro">
+      <h1>{{ site.data.contact.name }} <small>{{ site.data.contact.email }}</small> <small>{{ site.data.contact.phone }}</small></h1>
+      <p class="lead main">Hi.</p>
+      <p class="lead">I'm a Senior Software Engineer and have loads of experience in designing and implementing high scale software 
+      for the retail and commerce industry. I am equipped to tackle problems that are unique to the commerce space by using my past experiences and 
+      applying proven software design strategies and patterns to produce robust, high performancing, and maintainble solutions.</p>
+      <p class="lead">I look forward to connecting.</p>
+      <p class="lead">Best,<br>Jarrad</p>
+    </div>
+  </div>
+
+  <div class="footer">
+  {% for s in site.data.social %}
+    <a href="{{ s.link }}" target="_{{ s.name }}" title="{{ s.name }}"><i class="fa fa-{{ s.icon }}"></i></a>
+  {% endfor %}
+  </div>
+
+</div>
+
+
+
+
