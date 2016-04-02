@@ -3,20 +3,19 @@
   categories:
     - name: Frameworks
       tags:
+        - Dropwizard
         - Spring
         - Jersey
         - Jackson
-        - Codahale
     - name: Distributed
       tags:
+        - Kafka
         - MapReduce
         - Hadoop
         - HBase
     - name: Lifecycle
       tags:
-        - Bamboo
         - Jenkins
-        - Artifactory
         - Nexus
     - name: Development
       tags:
