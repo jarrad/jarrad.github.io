@@ -1,9 +1,16 @@
+- employer: Cosmic
+  title: Software Architect
+  location: Durham, NC
+  start_date: May 2016
+  end_date: Present
+  description: "At Cosmic, I am helping design and implement a distributed architecture used to power the Cosmic Commerce Gateway which connects the top retail brands with consumers through various forms of content."
+
 - employer: Validic
   title: Senior Software Engineer
   location: Durham, NC
   start_date: June 2015
-  end_date: Present
-  description: "At Validic, I am helping start the process of scaling the leading digital healthcare data platform to meet the demands of exponential growth in data and demand."
+  end_date: May 2016
+  description: "At Validic, I helped start the process of scaling the leading digital healthcare data platform to meet the demands of exponential growth in data and demand."
 
 - employer: Bronto Software
   title: Senior Software Engineer
