@@ -1,9 +1,15 @@
+- employer: Genesys
+  title: Software Architect
+  location: Durham, NC
+  start_date: Nov 2018
+  end_date: Present
+  description: "At Genesys, I am architecting batch processing and realtime streams to produce meaningful and accurate analytics. In addition, designed solutions to achive PCI, HIPAA, and GDPR complaince for Terabytes of historical data that can be used to train ML and AI algorithms."
 - employer: Cosmic
   title: Software Architect
   location: Durham, NC
   start_date: May 2016
-  end_date: Present
-  description: "At Cosmic, I am helping design and implement a distributed architecture used to power the Cosmic Commerce Gateway which connects the top retail brands with consumers through various forms of content."
+  end_date: Sept 2018
+  description: "At Cosmic, I helped design and implement a distributed architecture used to power the Cosmic Commerce Gateway which connects the top retail brands with consumers through various forms of content."
 
 - employer: Validic
   title: Senior Software Engineer

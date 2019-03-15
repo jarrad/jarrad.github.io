@@ -3,23 +3,29 @@
   categories:
     - name: Frameworks
       tags:
-        - Dropwizard
+        - Spring Boot
         - Spring
+        - Feign / Ribbon
         - Jersey
         - Jackson
     - name: Distributed
       tags:
+        - Google Pub/Sub
         - Kafka
+        - Spark
+        - Google Dataflow / Apache Beam
         - MapReduce
         - Hadoop
-        - HBase
-    - name: Lifecycle
+    - name: CI / CD
       tags:
+        - Google Cloud Builder
         - Jenkins
-        - Nexus
+        - Artifactory / Nexus
     - name: Development
       tags:
         - Maven
+        - Gradle
+        - Intellij
         - Eclipse
         - JUnit
         - Mockito
@@ -31,22 +37,25 @@
       tags:
         - Ruby
         - javascript
+        - python
         - HTML
         - CSS
     - name: Data
       tags:
+        - Google Datastore
+        - Google BigQuery
         - Postgres
-        - MySQL
         - Redis
-        - HBase
+        - Elastic Search
+        - Druid
+        - Avro / Parquet
     - name: DevOps
       tags:
-        - Chef
+        - Google Deployment Manager
+        - Ansible
         - Linux
     - name: Tools
       tags:
         - Git
-        - JIRA
+        - Atlassian
         - GitHub
-        - Scrum
-        - Kanban
